@@ -1,0 +1,14 @@
+Backgrounds
+	bg-primary: #1e1e1e
+
+
+Buttons:
+	btn-interest-calculate: #846358
+	btn-sign-in: #000000
+	btn-sign-up: #ced4da
+	
+
+Sidebar:
+	bg-sidebar: #343a40
+	navlink::active: #868e96
+	navlink: 
