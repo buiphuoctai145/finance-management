@@ -1,12 +1,27 @@
-import React from "react";
-import BtnInterestCalculator from '@/components/base/buttons/BtnInterestCalculate';
-// import * from '@/styles/global.css';
+import React, { useRef } from 'react';
+
+import WelcomeHeader from '@/components/base/headers/WelcomeHeader';
+import MainSection from '@/components/base/sections/Main';
 
 const WelcomePage = () => {
+  const mainRef = useRef<HTMLDivElement>(null);
+
+  const scrollToMain = () => {
+    if (mainRef.current) {
+      mainRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div>
-      <h1>Welcome to Finance Management</h1>
-      <BtnInterestCalculator />
+      <div className="flex flex-col items-center justify-center bg-gray-800">
+        <WelcomeHeader scrollToMain={scrollToMain} />
+      </div>
+      <div
+        ref={mainRef}
+        className="flex h-screen w-full flex-wrap rounded-sm bg-gray-900 px-6 py-4 text-white"
+      >
+        <MainSection />
+      </div>
     </div>
   );
 };

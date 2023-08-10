@@ -8,6 +8,7 @@ a:hover {
   @apply border-b-2 border-blue-700;
 }
 
+
 @tailwind components;
 
 @tailwind utilities;
@@ -18,63 +19,6 @@ a:hover {
 
 .content ul {
   @apply my-6;
-}
-
-.center {
-  border-radius: 5px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-}
-
-body{
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: black;
-}
-
-input {
-  border-radius: 2px
-}
-
-.container{
-  width: 700px;
-  padding: 25px;
-  margin: 0 25px;
-  background: transparent;
-  overflow: hidden;
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-}
-
-.container h1{
-  font-size: 35px;
-  font-weight: 500;
-  text-align: center;
-  color: white;
-  padding-bottom: 5px;
-}
-
-.container h2{
-  font-size: 20px;
-  font-weight: 500;
-  text-align: center;
-  color: white;
-  padding-bottom: 15px;
-  font-style: italic
-}
-
-.container p{
-  font-size: 12px;
-  font-weight: 400;
-  text-align: left;
-  font-style: italic;
-  color: white;
-  padding-bottom: 10px;
 }
 
 .box-content{
@@ -98,12 +42,6 @@ input {
   vertical-align: center
 }
 
-.error {
-  color: red;
-  font-size: 14px;
-  margin-top: 5px;
-}
-
 .button-container button{
   width: 100%;
   padding: 15px 0;
@@ -115,6 +53,11 @@ input {
   text-transform: uppercase;
   font-size: 18px;
   margin: 10px 0;
+}
+
+.button-container button:hover{
+  cursor: pointer;
+  background-image: linear-gradient(to right,skyblue,blue);
 }
 
 
@@ -187,23 +130,6 @@ input {
   font-size: 30px
 }
 
-.button-container button:hover{
-  cursor: pointer;
-  background-image: linear-gradient(to right,skyblue,blue);
-}
-
-.blur-container {
-  backdrop-filter: blur(10px);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.text-center{
-  text-align: center;
-}
 
 .form-container {
   background: rgba(0, 0, 0, 0.6);
