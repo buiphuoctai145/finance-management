@@ -15,7 +15,7 @@ const CardsContainer = ({
 }: BannerProps) => {
   return (
     <div
-      className="mx-2 h-96 w-80 max-w-sm rounded-lg border border-gray-200 bg-white bg-cover bg-center p-6 shadow transition-transform hover:scale-105 dark:border-gray-700 dark:bg-gray-800"
+      className="mx-6 h-96 w-80 max-w-sm rounded-lg border border-gray-200 bg-white bg-cover bg-center p-6 shadow transition-transform hover:scale-105 dark:border-gray-700 dark:bg-gray-800"
       style={{
         backgroundImage: `url(${imageUrl})`,
       }}

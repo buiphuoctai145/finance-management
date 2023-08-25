@@ -21,6 +21,36 @@ a:hover {
   @apply my-6;
 }
 
+/* Dropdown container */
+.dropdown {
+  @apply relative cursor-pointer;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  @apply absolute hidden flex-col bg-[white] border w-40 z-[1] border-t-[none] border-solid border-[#ccc] left-0 top-full;
+}
+.dropdown:hover .dropdown-content {
+  @apply flex animate-[fadeIn_0.2s];
+}
+
+/* Dropdown content items */
+.dropdown-content a {
+  @apply no-underline text-[black] transition-[background-color] duration-[0.2s] px-4 py-2 hover:bg-[#f0f0f0];
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  from {
+    @apply opacity-0 translate-y-[-5px];
+  }
+  to {
+    @apply opacity-100 translate-y-0;
+  }
+}
+
+
+
 .box-content{
   display: flex;
   flex-wrap: inline-flex;

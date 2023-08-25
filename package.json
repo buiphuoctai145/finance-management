@@ -27,12 +27,18 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.16",
+    "chart.js": "^4.3.3",
+    "css-to-tailwindcss": "^1.0.4",
     "framer-motion": "^10.15.1",
     "next": "^13.4.12",
     "next-seo": "^6.1.0",
     "next-sitemap": "^4.1.8",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-scroll": "^1.8.9",
     "react-spring": "^9.7.2"
   },
   "devDependencies": {

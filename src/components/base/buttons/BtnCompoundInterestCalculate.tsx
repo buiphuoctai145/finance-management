@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const BtnDoubleInterestCalculator = () => {
+const BtnCompoundInterestCalculator = () => {
   return (
     <Link
       href="/double-interest"
@@ -29,4 +29,4 @@ const BtnDoubleInterestCalculator = () => {
   );
 };
 
-export default BtnDoubleInterestCalculator;
+export default BtnCompoundInterestCalculator;
