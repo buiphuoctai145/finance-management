@@ -24,7 +24,6 @@ ChartJS.register(
 
 export default function Graph() {
   const [graphCtx, setGraphCtx] = useContext<any>(GraphCtx);
-  const [chartData, setChartData] = useState({});
 
   if (graphCtx.values.length === 0) return null;
 
