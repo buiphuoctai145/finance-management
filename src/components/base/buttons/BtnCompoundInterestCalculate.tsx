@@ -4,7 +4,7 @@ import React from 'react';
 const BtnCompoundInterestCalculator = () => {
   return (
     <Link
-      href="/double-interest"
+      href="CompoundInterestCalculator"
       className="inline-flex items-center justify-center rounded-md bg-black px-6 py-3 text-center text-base font-medium text-white no-underline"
     >
       <span className="mr-[10px]">

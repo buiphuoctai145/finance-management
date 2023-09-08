@@ -28,7 +28,7 @@ a:hover {
 
 /* Dropdown content */
 .dropdown-content {
-  @apply absolute hidden flex-col bg-[white] border w-40 z-[1] border-t-[none] border-solid border-[#ccc] left-0 top-full;
+  @apply absolute hidden flex-col bg-[white] border w-60 z-[1] border-t-[none] border-solid border-[#ccc] left-0 top-full;
 }
 .dropdown:hover .dropdown-content {
   @apply flex animate-[fadeIn_0.2s];

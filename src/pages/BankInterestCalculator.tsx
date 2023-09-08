@@ -34,10 +34,10 @@ const CompoundInterestCalculator = () => {
   return (
     <div className="bg-gray-900">
       <Header />
-      <main className="mx-auto mt-2 mb-auto max-w-7xl">
+      <main className="mx-auto mb-auto mt-2 max-w-7xl">
         <div className="mb-12">
           <h1 className="mb-4 text-center text-5xl font-bold text-white">
-            Compound Interest Calculator
+            Bank Interest Calculator
           </h1>
           <p className="text-center text-white">
             Get your money in the market and watch it grow over time. We are
